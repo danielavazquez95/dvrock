@@ -1,0 +1,275 @@
+
+body{
+ font-family: 'Roboto', sans-serif;
+ font-size: 19px;
+
+}
+
+
+
+@media (max-width: 6000px) {
+    #fondo{
+        background-image: url('https://images.pexels.com/photos/1532704/pexels-photo-1532704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size:cover;
+    }
+      
+
+}
+
+
+@media (max-width: 1000px) {
+    #fondo{
+        background-image: url('https://images.pexels.com/photos/1532704/pexels-photo-1532704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size:auto;
+       background-repeat: repeat;
+     
+    }
+      
+
+}
+.logo{
+    width: 140px;
+}
+
+
+#card1 {
+    max-width: 320px;
+    max-height: 500px;
+    font-size: 16px;
+    background-color: black;
+}
+
+
+
+#card1:hover{
+
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+
+}
+#card2  {
+    width: 68%;
+    background-color: black;
+    min-width: 296px;
+    min-height: 155px ;
+ }
+ #card2:hover{
+ 
+     -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+     -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+     box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+     cursor: pointer;
+ 
+ }
+    
+.form-container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin: 25px;
+  
+}
+
+.login{
+    height: 85vh;
+    overflow: hidden;
+   
+}
+
+
+
+.contact{
+    height: 85vh;
+    overflow: hidden;
+}
+
+
+.auth__social-networks {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.auth__alert-error{
+    background-color: red;
+    border-radius: 5px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+.google-btn {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    
+    transition: box-shadow.3s ease; 
+}
+
+.google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        
+    }
+ .google-icon {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+    }
+.btn-text {
+        float: right;
+        margin: 9px 30px 0 0;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        
+    }
+ .comments{
+        margin: 20x 0;
+    }
+
+.form_comments input {
+
+        width: 100%;
+        height: 84px;
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+        padding: 10px;
+        line-height: 30px;
+        border: 1px solid #464646;
+        margin-bottom: 20px;
+    }
+.form_comments .btn {
+    margin-bottom: 20px;
+}
+
+.media{
+    border-top: 1px solid #464646;
+    padding-top: 20px;    
+    padding-bottom: 10px;  
+}
+  
+.media img {
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+.media .user {
+    color:black ;
+    margin-bottom: 0;
+
+}
+.media .user span {
+    font-size: 12px;
+    color: #464646;
+    margin-left:10px;
+    
+}
+.media .comment {
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.media .btns{
+    margin-bottom: 10px;
+    
+}
+
+.media .btns a {
+    color: #acacac;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.nav-mobile{
+
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.menu-bars{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: white;
+    background: none;
+
+}
+
+.menu-bars:hover {
+    color: grey;
+   
+}
+
+.nav-menu {
+    
+    width: 210px;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+    z-index: 100;
+  }
+
+  .nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin-top: 45px;
+  margin-left: 0;
+
+  justify-content: center;
+  align-items: start;
+}
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 0px;
+    list-style: none;
+    height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+  }
+  
+.nav-text:hover {
+
+    color: grey;
+    text-decoration: none;
+
+}
