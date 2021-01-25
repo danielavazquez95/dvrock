@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dvrock/static/css/main.22220c53.chunk.css",
+    "main.js": "/dvrock/static/js/main.7fed82d6.chunk.js",
+    "main.js.map": "/dvrock/static/js/main.7fed82d6.chunk.js.map",
+    "runtime-main.js": "/dvrock/static/js/runtime-main.06a686d8.js",
+    "runtime-main.js.map": "/dvrock/static/js/runtime-main.06a686d8.js.map",
+    "static/js/2.8171eb84.chunk.js": "/dvrock/static/js/2.8171eb84.chunk.js",
+    "static/js/2.8171eb84.chunk.js.map": "/dvrock/static/js/2.8171eb84.chunk.js.map",
+    "index.html": "/dvrock/index.html",
+    "static/css/main.22220c53.chunk.css.map": "/dvrock/static/css/main.22220c53.chunk.css.map",
+    "static/js/2.8171eb84.chunk.js.LICENSE.txt": "/dvrock/static/js/2.8171eb84.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06a686d8.js",
+    "static/js/2.8171eb84.chunk.js",
+    "static/css/main.22220c53.chunk.css",
+    "static/js/main.7fed82d6.chunk.js"
+  ]
+}
