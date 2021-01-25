@@ -5,32 +5,9 @@ body{
 
 }
 
-
-
-@media (max-width: 6000px) {
-    #fondo{
-        background-image: url('https://images.pexels.com/photos/1532704/pexels-photo-1532704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-        background-size:cover;
-    }
-      
-
-}
-
-
-@media (max-width: 1000px) {
-    #fondo{
-        background-image: url('https://images.pexels.com/photos/1532704/pexels-photo-1532704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-        background-size:auto;
-       background-repeat: repeat;
-     
-    }
-      
-
-}
 .logo{
     width: 140px;
 }
-
 
 #card1 {
     max-width: 320px;
@@ -38,8 +15,6 @@ body{
     font-size: 16px;
     background-color: black;
 }
-
-
 
 #card1:hover{
 
